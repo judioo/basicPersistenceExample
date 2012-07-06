@@ -20,7 +20,6 @@
     NSDictionary *dict  = [[NSDictionary alloc]
                            initWithContentsOfFile:[self dataFile]];
     
-    NSLog(@"aaa %@",dict);
     NSLog(@"dataFile: %@",[self dataFile]);
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:[self dataFile]]) {
